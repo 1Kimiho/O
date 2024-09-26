@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }body{
     display: flex;
-    gap: 350px;
+    gap: 200px;
     padding-top: 20px;
     background-color: black;
     color: white;
@@ -12,6 +12,9 @@
 }header{
     display: flex;
     flex-direction: column;
+    border-right: 1px solid grey;
+    padding-right: 15px;
+    margin-left: 25px;
 }img{
     border-radius: 50%;
     width: 75px;
@@ -27,6 +30,8 @@
 }h3{
     font-size: 30px;
     padding-bottom: 20px;
+}aside{
+    margin-top: 10px;
 }.a1{
     border-radius: 10px;
     width: 400px;
@@ -59,8 +64,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-} .d5{
+}.d5{
     width: 50px;
     height: 50px;
     margin-top: 20px;
+}#d6{
+    font-size: 10px;
+}.d7{
+    font-size: 15px;
+    padding-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}.d8{
+    display: flex;
+    align-items: center;
 }
